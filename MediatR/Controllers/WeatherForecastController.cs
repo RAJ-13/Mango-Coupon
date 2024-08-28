@@ -23,6 +23,7 @@ namespace MediatR.Controllers
 		public string Get(string city)
 		{
 			GetForecastQuery forecastQuery = new(city);
+
 			string celcius = string.Empty;
 			return celcius;
 		}
